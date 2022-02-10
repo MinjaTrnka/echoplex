@@ -1,0 +1,130 @@
+body {
+  background-color: #261f26;
+}
+.header {
+  margin-top: 40px;
+}
+header p {
+  text-align: center;
+  margin: 0px;
+  color: white;
+  font-size: 20px;
+}
+.boxes-wraper {
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+.box1 {
+  width: 65%;
+  height: 300px;
+  background-color: #953e28;
+  border: 3px solid #c5c588;
+  border-radius: 15px;
+  float: left;
+  margin: 10px;
+}
+.box2 {
+  width: 30%;
+  /* height: 600px; */
+  background-color: #953e28;
+  border: 3px solid #c5c588;
+  border-radius: 15px;
+  float: right;
+  margin: 10px;
+}
+
+.box3 {
+  width: 65%;
+  height: 300px;
+  background-color: #1a5e74;
+  border: 3px solid #c5c588;
+  border-radius: 15px;
+  float: left;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.boxp {
+  position: absolute;
+  color: white;
+  margin-top: 320px;
+  margin-left: 440px;
+  font-size: 15px;
+}
+.second-check {
+  margin-left: 126px;
+}
+.clear-fix {
+  clear: both;
+}
+.flex-wraper {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(143, 19, 19);
+  box-shadow: 5px 5px rgb(59, 8, 8);
+}
+.circle {
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 14px;
+  background-color: grey;
+  box-shadow: 3px 3px #261f26;
+}
+.flex-container {
+  color: white;
+  text-align: center;
+  position: relative;
+  text-align: center;
+  margin-bottom: 40px;
+}
+select {
+  width: 150px;
+  border: none;
+  background-color: #d48672;
+  color: wheat;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+.flex-container label {
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+}
+.flex-items {
+  text-align: center;
+  color: white;
+  /* display: flex; */
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: auto;
+}
+.items {
+  width: 90%;
+  height: 90px;
+  border-radius: 10px;
+  background-color: rgb(143, 19, 19);
+  margin: 10px 15px 10px 15px;
+  padding: 0%;
+}
+button {
+  display: inline-block;
+  width: 35px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0 10px 5px;
+  background-color: #953e28;
+  color: white;
+  font-size: 20px;
+}
